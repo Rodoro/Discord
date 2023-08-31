@@ -3,6 +3,6 @@ module.exports = {
         name: 'getWhitelist'
     },
     async execute(interaction) {
-        await interaction.message.delete();
+        return await interaction.reply({content: 'Эта функция еще недоступна.', ephemeral: true});
     }
 }
